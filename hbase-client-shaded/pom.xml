@@ -71,15 +71,15 @@
                                     <pattern>org.apache.commons</pattern>
                                     <shadedPattern>shaded.org.apache.commons</shadedPattern>
                                 </relocation>
+                                <relocation>
+                                    <pattern>com.google.gson</pattern>
+                                    <shadedPattern>shaded.com.google.gson</shadedPattern>
+                                </relocation>
                                 <!--                                <relocation>-->
                                 <!--                                    <pattern>javax.validation</pattern>-->
                                 <!--                                    <shadedPattern>shaded.javax.validation</shadedPattern>-->
                                 <!--                                </relocation>-->
 
-                                <!--                                <relocation>-->
-                                <!--                                    <pattern>com.google.gson</pattern>-->
-                                <!--                                    <shadedPattern>shaded.com.google.gson</shadedPattern>-->
-                                <!--                                </relocation>-->
 
                                 <!--                                <relocation>-->
                                 <!--                                    <pattern>org.apache.http</pattern>-->
