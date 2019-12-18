@@ -56,6 +56,15 @@
         <hbase-client.version>2.1.0-cdh6.3.0</hbase-client.version>
     </properties>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
     <pluginRepositories>
         <pluginRepository>
             <id>aliyun</id>
