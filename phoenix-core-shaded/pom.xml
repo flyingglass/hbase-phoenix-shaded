@@ -104,6 +104,10 @@
                                     <pattern>com.google.gson</pattern>
                                     <shadedPattern>shaded.com.google.gson</shadedPattern>
                                 </relocation>
+                                <relocation>
+                                    <pattern>org.joda</pattern>
+                                    <shadedPattern>shaded.org.joda</shadedPattern>
+                                </relocation>
 
                                 <!--                                <relocation>-->
                                 <!--                                    <pattern>org.apache.http</pattern>-->
