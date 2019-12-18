@@ -10,12 +10,12 @@
     </parent>
 
     <groupId>com.github.flyingglass</groupId>
-    <artifactId>hbase-phoenix-parent</artifactId>
+    <artifactId>hbase-phoenix-shaded</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <name>${project.artifactId}</name>
-    <description>hbase phoenix shaded集成</description>
+    <description>hbase phoenix shaded repackage</description>
 
 
     <modules>
@@ -34,42 +34,6 @@
         <phoenix-core.version>5.0.0-HBase-2.0</phoenix-core.version>
         <hbase-client.version>2.1.0-cdh6.3.0</hbase-client.version>
     </properties>
-
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-deploy-plugin</artifactId>
-                <version>2.8.2</version>
-                <executions>
-                    <execution>
-                        <id>default-deploy</id>
-                        <phase>deploy</phase>
-                        <goals>
-                            <goal>deploy</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <!--配置生成源码包-->
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-source-plugin</artifactId>-->
-<!--                <version>3.0.1</version>-->
-<!--                <executions>-->
-<!--                    <execution>-->
-<!--                        <id>attach-sources</id>-->
-<!--                        <goals>-->
-<!--                            <goal>jar</goal>-->
-<!--                        </goals>-->
-<!--                    </execution>-->
-<!--                </executions>-->
-<!--            </plugin>-->
-        </plugins>
-    </build>
-
-
 
     <pluginRepositories>
         <pluginRepository>
