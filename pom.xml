@@ -11,7 +11,7 @@
 
     <groupId>com.github.flyingglass</groupId>
     <artifactId>hbase-phoenix-shaded</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>${project.artifactId}</name>
@@ -28,7 +28,7 @@
     <scm>
         <url>https://github.com/FlyingGlass/hbase-phoenix-shaded</url>
         <connection>git@github.com:FlyingGlass/hbase-phoenix-shaded.git</connection>
-        <developerConnection>https://github.com/FlyingGlass</developerConnection>
+        <developerConnection>git@github.com:FlyingGlass/hbase-phoenix-shaded.git</developerConnection>
     </scm>
 
     <developers>
